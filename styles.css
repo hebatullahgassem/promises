@@ -31,23 +31,28 @@
 }
 
 .input{
-  width: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .input input{
   height: 30px;
   width: 20%;
   border: 2px solid lightgray;
+  padding-left: 10px;
 }
 
-.input button{
-  background-color: black;
-  color: white;
+.input select{
+  padding: 7px;
   font-weight: bold;
-  border: none;
-  height: 30px;
-  padding: 5px 10px;
+  width: 100px;
+}
+
+.input select option{
+  font-weight: bold;
+}
+
+.sort{
+  color: gray;
 }
